@@ -25,8 +25,7 @@ Este projeto tem como objetivo oferecer:
 
 ### Backend
 - Python 3
-- :contentReference[oaicite:1]{index=1}  
-- :contentReference[oaicite:2]{index=2}  
+- DJANGO FRAMEWORK
 - PostgreSQL  
 - Autenticação JWT
 
