@@ -1,6 +1,6 @@
 # 🛍️ Marketplace Multi‑Loja
 
-Uma **plataforma web de marketplace** para pequenos empreendedores e prestadores de serviços, permitindo que cada usuário crie sua própria loja virtual, gerencie produtos, controle estoque, venda com integração de frete e pagamentos via PIX, e permita avaliações e compartilhamentos nas redes sociais.
+Uma plataforma web de marketplace para pequenos empreendedores e prestadores de serviços, permitindo que cada usuário crie sua própria loja virtual, gerencie produtos, controle estoque, venda com integração de frete e pagamentos via PIX, e permita avaliações e compartilhamentos nas redes sociais.
 
 ---
 
@@ -17,14 +17,14 @@ Este projeto tem como objetivo oferecer:
 - Notificações por e‑mail 
 - Avaliação de produtos pelos compradores
 
-Ideal para estudo, portfólio ou base para um produto SaaS de marketplace.
+
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
 ### Backend
-- Python 3.x  
+- Python 3
 - :contentReference[oaicite:1]{index=1}  
 - :contentReference[oaicite:2]{index=2}  
 - PostgreSQL  
