@@ -30,8 +30,7 @@ Este projeto tem como objetivo oferecer:
 - Autenticação JWT
 
 ### Frontend
-- :contentReference[oaicite:3]{index=3}  
 - Vite  
-- Tailwind CSS (opcional)
+- Tailwind CSS 
 
 ---
