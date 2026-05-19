@@ -1,3 +1,21 @@
-from django.contrib import admin
+# 📁 Caminho: root/marketplace/accounts/admin.py
 
-# Register your models here.
+from django.contrib import admin
+from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
+from .models import User
+
+
+@admin.register(User)
+class UserAdmin(BaseUserAdmin):
+    list_display = ("email", "username", "user_type", "is_active", "date_joined")
+    list_filter = ("user_type", "is_active", "is_staff")
+    search_fields = ("email", "username", "first_name", "last_name")
+    ordering = ("-date_joined",)
+
+    # Adiciona os campos extras do nosso modelo ao formulário do admin
+    fieldsets = BaseUserAdmin.fieldsets + (
+        ("Marketplace", {"fields": ("user_type", "phone")}),
+    )
+    add_fieldsets = BaseUserAdmin.add_fieldsets + (
+        ("Marketplace", {"fields": ("email", "user_type", "phone")}),
+    )
